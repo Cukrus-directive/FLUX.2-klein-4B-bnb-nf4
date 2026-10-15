@@ -7,12 +7,12 @@
     "FlowMatchEulerDiscreteScheduler"
   ],
   "text_encoder": [
-    null,
-    null
+    "transformers",
+    "Qwen3ForCausalLM"
   ],
   "tokenizer": [
-    null,
-    null
+    "transformers",
+    "Qwen2TokenizerFast"
   ],
   "transformer": [
     "diffusers",
