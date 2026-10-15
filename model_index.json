@@ -1,0 +1,25 @@
+{
+  "_class_name": "Flux2KleinPipeline",
+  "_diffusers_version": "0.37.0.dev0",
+  "is_distilled": true,
+  "scheduler": [
+    "diffusers",
+    "FlowMatchEulerDiscreteScheduler"
+  ],
+  "text_encoder": [
+    null,
+    null
+  ],
+  "tokenizer": [
+    null,
+    null
+  ],
+  "transformer": [
+    "diffusers",
+    "Flux2Transformer2DModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKLFlux2"
+  ]
+}
